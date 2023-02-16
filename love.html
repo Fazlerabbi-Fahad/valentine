@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.8.10/themes/smoothness/jquery-ui.css" type="text/css">
 </head>
 
 <body>
@@ -24,17 +25,7 @@
         </div>
         <button id="bouncing" class="btn btn-primary text-white mt-[190px] mr-[100px] z-40">No</button>
     </div>
-    <script>
-
-        var button = document.getElementById("bouncing");
-
-        button.addEventListener("click", function () {
-            var changeTop = (Math.random() * 500);
-            var changeLeft = (Math.random() * 500);
-            $("button").css("margin-top", changeTop + "px");
-            $("button").css("margin-left", changeLeft + "px");
-        });
-    </script>
+    <script src="./js/script.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 </body>
